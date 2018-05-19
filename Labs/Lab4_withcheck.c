@@ -24,6 +24,7 @@ int main() {
 	double varDouble = DBL_MAX;
 	long double varLDouble = LDBL_MAX;
 	char varChar = CHAR_MAX;
-	printf("The maximum (positive) non-infinite value that can be represented for each variable type is:\n\nint:\n%d\n\nlong int:\n%ld\n\nunsigned int:\n%u\n\nfloat:\n%f\n\ndouble:\n%lf\n\nlong double:\n%Lf\n\nchar:\n%d", varInt,varLInt,varUInt,varFloat,varDouble,varLDouble,varChar);
+	printf("\nThe maximum (positive) non-infinite value that can be represented for each variable type is:\n\nint:\n%i\n\nlong int:\n%ld\n\nunsigned int:\n%u\n\nfloat:\n%f\n\ndouble:\n%lf\n\nlong double:\n%Lf\n\nchar:\n%d\n", varInt,varLInt,varUInt,varFloat,varDouble,varLDouble,varChar);
+	printf("LDBL_MAX = %d\n", LDBL_MAX);
 	
 }
